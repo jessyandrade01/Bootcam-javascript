@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopping-header > h2 {
+    text-align: center;
+    padding: 20px;
+} 
+
+.shopping-item {
+    padding: 32px;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+    display: flex; /* Para alinear elementos */
+    justify-content: space-between; /* Reparte equitativamente los elementos en el espacio en una línea horizontal */
+    margin-bottom: 8px; /* Espacio entre cajas */
+} 
+
+.resposive {
+    max-width: 50%; /*1500px 750px */
+    width: 100px; /* Esto Significa que empieza a esalar la imagen a partir de 100px*/
+    height: auto;
+}
+
+.item-entry {
+    width: 300px;
+}
+
+.item-name {
+    text-transform: uppercase; /* Pone todas las letras en mayuscula*/
+    color: #666666;
+    font-size: 20px;
+}
+
+.item-description {
+    text-transform: lowercase; /* Pone las letras en minúsculas*/
+    font-size: 16px;
+    display: block;
+} 
+
+.quantity {
+    box-shadow: inset 0px 1px opx 0px #ffffff;
+    background-color: transparent;
+    border-radius: 3px; 
+    border: 1px solid #dcdcdc;
+    cursor: pointer; /* Cuando esté encima aparezca 1 dedito*/
+    color: #666666; /* Signos dentro del botón se vean de otra manera */
+    font-size: 16px; 
+    font-weight: bold; /* Espesor de la fuente */
+    padding: 6px 12px;
+    text-shadow: 0px 1px opx #ffffff; /* Para que el + y el - se vean con difuminado*/
+}
+
+.quantity:active { /* El Active: se conoce como 1 seudo clase. Esto es para que el botón de la sensación de que se está pulsando sobre él se ve como que se desplaza 1px, dando la senssación de que se mueve*/
+    position: relative;
+    top: 1px;
+}
+
+.quantity-amount {
+    color: #666666;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-right: 16px;
+} 
+
+.value {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    font-size: 24px;
+    min-width: 100px;
+}
+
+.shopping.footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shopping-footer {
+    font-weight: 700px;
+    font-size: 30px;
+}
+
