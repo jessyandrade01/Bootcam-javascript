@@ -16,7 +16,7 @@ body {
     margin-bottom: 8px; /* Espacio entre cajas */
 } 
 
-.resposive {
+.responsive {
     max-width: 50%; /*1500px 750px */
     width: 100px; /* Esto Significa que empieza a esalar la imagen a partir de 100px*/
     height: auto;
@@ -35,19 +35,19 @@ body {
 .item-description {
     text-transform: lowercase; /* Pone las letras en minúsculas*/
     font-size: 16px;
-    display: block;
+    display: block; /*Hace que un span cambie de líena*/
 } 
 
 .quantity {
     box-shadow: inset 0px 1px opx 0px #ffffff;
-    background-color: transparent;
+    background-color: transparent; /* El color de fondo del botón será transparente, es decir el color de lo que haya por detrás*/
     border-radius: 3px; 
     border: 1px solid #dcdcdc;
     cursor: pointer; /* Cuando esté encima aparezca 1 dedito*/
     color: #666666; /* Signos dentro del botón se vean de otra manera */
     font-size: 16px; 
     font-weight: bold; /* Espesor de la fuente */
-    padding: 6px 12px;
+    padding: 6px 12px; 
     text-shadow: 0px 1px opx #ffffff; /* Para que el + y el - se vean con difuminado*/
 }
 
