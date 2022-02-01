@@ -14,16 +14,17 @@ body {
     display: flex; /* Para alinear elementos */
     justify-content: space-between; /* Reparte equitativamente los elementos en el espacio en una línea horizontal */
     margin-bottom: 8px; /* Espacio entre cajas */
+    /*margin-bottom: 8px; /* Espacio que hay entre la caja y el texto */
 } 
 
 .responsive {
     max-width: 50%; /*1500px 750px */
-    width: 100px; /* Esto Significa que empieza a esalar la imagen a partir de 100px*/
-    height: auto;
+    width: 100px; /* Esto Significa que empieza a escalar la imagen a partir de 100px*/
+    height: auto; /*Alto*/
 }
 
 .item-entry {
-    width: 300px;
+    width: 300px; /*Ancho*/
 }
 
 .item-name {

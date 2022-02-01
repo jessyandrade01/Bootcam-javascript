@@ -1,0 +1,51 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hoteles-head > h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.hoteles-item{
+    padding: 32px; /* Espaico entre cajas */
+    border: 1px solid #dcdcdc;
+    display: flex; /* Para alinear elementos */
+    justify-content: space-between; /* Reparte equitativamente los elementos en el espacio en una línea horizontal */
+    text-align: center; 
+    align-items: center; /* Funciona para flexbox */
+    /*margin-bottom: 8px; /* Espacio que hay entre la caja y el texto */
+}
+
+.item-name {
+    text-transform: uppercase; /* Pone todas las letras en mayuscula*/
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.item-description {
+    text-transform: lowercase; /* Pone las letras en minúsculas*/
+    font-size: 16px;
+}
+
+.wonderfull {
+    text-transform: capitalize;
+}
+
+.telefonos {
+    text-align:right;
+    border:transparent;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.quantity {
+    background-color: transparent; /* El color de fondo del botón será transparente, es decir el color de lo que haya por detrás*/
+    border:transparent;
+    cursor: pointer; /* Cuando esté encima aparezca 1 dedito*/
+    text-shadow: 0px 1px opx #ffffff; /* Para que el + y el - se vean con difuminado*/
+}
+
